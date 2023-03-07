@@ -17,7 +17,10 @@
 
     <ItemGroup>
       <None Remove="config.json" />
-      <EmbeddedResource Include="config.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Config\config.json" />
     </ItemGroup>
 
 </Project>
