@@ -15,7 +15,7 @@ A discord bot created in C# using 2 libraries : [DSharpPlus](https://github.com/
 To install the bot, you need to clone the Github repository on your computer. You will also need your favorite IDE and .NET Framework to compile and run the code. Finally, you will need to create a Discord bot and get its access token to connect the bot to your Discord server. 
 
 # Config.json
-Create your config.json file and put your token inside respecting this format
+Don't forget to write your token in the config.json file
 ```config.json
 {
   "token": "your-token"
