@@ -1,7 +1,7 @@
 
-# HyBot - csharp-discord-bot
+# HyBot - [csharp-discord-bot](https://github.com/Antyss77/csharp-discord-bot)
 
-Un bot discord créé en C# à l'aide de 2 bibliothèques : [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus) et [NewtonSoft](https://github.com/JamesNK/Newtonsoft.Json)
+A discord bot created in C# using 2 libraries : [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus) et [NewtonSoft](https://github.com/JamesNK/Newtonsoft.Json)
 
 
 ## SlashCommands
@@ -12,10 +12,10 @@ Un bot discord créé en C# à l'aide de 2 bibliothèques : [DSharpPlus](https:/
 
 ## Installation
 
-Pour installer le bot, vous devez cloner le référentiel Github sur votre ordinateur. Vous aurez également besoin de votre IDE favoris et de .NET Framework pour compiler et exécuter le code. Enfin, vous devrez créer un bot Discord et obtenir son jeton d'accès pour connecter le bot à votre serveur Discord. 
+To install the bot, you need to clone the Github repository on your computer. You will also need your favorite IDE and .NET Framework to compile and run the code. Finally, you will need to create a Discord bot and get its access token to connect the bot to your Discord server. 
 
 # Config.json
-Créer votre fichier config.json et mettez votre token à l'intérieur en respectant ce format
+Create your config.json file and put your token inside respecting this format
 ```config.json
 {
   "token": "your-token"
