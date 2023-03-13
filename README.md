@@ -6,8 +6,8 @@ Un bot discord créé en C# à l'aide de 2 bibliothèques : [DSharpPlus](https:/
 
 ## SlashCommands
 
-- [Ping](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/PingCommand.cs)
-- [Info](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/InfoCommand.cs)
+- [PingCommand](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/PingCommand.cs)
+- [InfoCommand](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/InfoCommand.cs)
 
 
 ## Installation
