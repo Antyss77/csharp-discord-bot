@@ -1,5 +1,5 @@
 
-# HyBot - [csharp-discord-bot](https://github.com/Antyss77/csharp-discord-bot)
+# HyBot
 
 A discord bot created in C# using 2 libraries : [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus) and [NewtonSoft](https://github.com/JamesNK/Newtonsoft.Json)
 
