@@ -1,6 +1,7 @@
 ﻿using System.Text;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
+using DSharpPlus.Entities;
 using DSharpPlus.EventArgs;
 using DSharpPlus.Interactivity;
 using DSharpPlus.Interactivity.Extensions;
@@ -26,21 +27,14 @@ namespace HyBot {
                 Token = configJson.Token,
                 TokenType = TokenType.Bot,
                 AutoReconnect = true,
-                
             };
-            
+
             Client = new DiscordClient(config);
             Client.UseInteractivity(new InteractivityConfiguration()
             {
                 Timeout = TimeSpan.FromMinutes(2)
             });
 
-            var commandsConfig = new CommandsNextConfiguration()
-            {
-                StringPrefixes = new string[] {configJson.Prefix},
-                EnableMentionPrefix = true,
-                EnableDms = true,
-            };
 
             var slashCommandsConfig = Client.UseSlashCommands();
             slashCommandsConfig.RegisterCommands<PingCommand>();
@@ -49,8 +43,8 @@ namespace HyBot {
 
             await Client.ConnectAsync();
             await Task.Delay(-1);
-            
         }
+
 
         private Task OnClientReady(ReadyEventArgs e) {
             return Task.CompletedTask;
