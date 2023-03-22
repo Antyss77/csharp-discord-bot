@@ -3,7 +3,6 @@ using DSharpPlus.Entities;
 using DSharpPlus.SlashCommands;
 
 namespace HyBot.Commands; 
-
 public class PingCommand : ApplicationCommandModule {
     [SlashCommand("ping", "Check the bot's latency.")]
     public async Task PingCommandAsync(InteractionContext ctx) {

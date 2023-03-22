@@ -10,4 +10,12 @@ public class ConfigJSON {
     
     [JsonProperty("prefix")]
     public string Prefix { get; set; }
+    
+    [JsonProperty("status")]
+    public string Status { get; set; }
+
+    [JsonProperty("description")]
+    public string Description { get; set; }
+
+    
 }

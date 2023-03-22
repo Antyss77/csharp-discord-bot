@@ -1,3 +1,6 @@
 ﻿{
-  "token": "put-your-token-here"
+  "token": "put-your-token-here",
+  "prefix": "!",
+  "Status": "Je suis un bot Discord !",
+  "Description": "Je suis là pour vous aider et rendre votre expérience sur Discord plus agréable."
 }
