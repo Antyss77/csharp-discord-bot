@@ -1,7 +1,6 @@
 ﻿using DSharpPlus;
 using DSharpPlus.Entities;
 using DSharpPlus.SlashCommands;
-using System.Threading.Tasks;
 
 namespace HyBot.Commands {
     public class ClearCommand : ApplicationCommandModule {

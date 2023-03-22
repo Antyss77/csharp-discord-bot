@@ -26,8 +26,9 @@ namespace HyBot {
                 Token = configJson.Token,
                 TokenType = TokenType.Bot,
                 AutoReconnect = true,
+                
             };
-
+            
             Client = new DiscordClient(config);
             Client.UseInteractivity(new InteractivityConfiguration()
             {
