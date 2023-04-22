@@ -42,6 +42,7 @@ namespace HyBot {
             slashCommandsConfig.RegisterCommands<ClearCommand>();
             slashCommandsConfig.RegisterCommands<SuggestCommand>();
             slashCommandsConfig.RegisterCommands<CalculateCommand>();
+            slashCommandsConfig.RegisterCommands<PollCommand>();
 
             await Client.ConnectAsync();
             await Task.Delay(-1);
