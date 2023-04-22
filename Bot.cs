@@ -40,6 +40,7 @@ namespace HyBot {
             slashCommandsConfig.RegisterCommands<PingCommand>();
             slashCommandsConfig.RegisterCommands<InfoCommand>();
             slashCommandsConfig.RegisterCommands<ClearCommand>();
+            slashCommandsConfig.RegisterCommands<SuggestCommand>();
 
             await Client.ConnectAsync();
             await Task.Delay(-1);
