@@ -10,6 +10,7 @@ A discord bot created in C# using 2 libraries : [DSharpPlus](https://github.com/
 - [InfoCommand](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/InfoCommand.cs)
 - [ClearCommand](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/ClearCommand.cs)
 - [SuggestCommand](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/SuggestCommand.cs)
+- [CalculateCommand](https://github.com/Antyss77/csharp-discord-bot/blob/main/Commands/CalculateCommand.cs)
 
 
 ## Installation
